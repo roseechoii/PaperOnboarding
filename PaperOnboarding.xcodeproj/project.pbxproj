@@ -14,6 +14,10 @@
 		662195A2225979F900580E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662195A0225979F900580E15 /* LaunchScreen.storyboard */; };
 		662195AD225979F900580E15 /* PaperOnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662195AC225979F900580E15 /* PaperOnboardingTests.swift */; };
 		662195B8225979F900580E15 /* PaperOnboardingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662195B7225979F900580E15 /* PaperOnboardingUITests.swift */; };
+		6668BB6322597FD5003998F6 /* bmwblueemblem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6668BB6022597FD5003998F6 /* bmwblueemblem.jpg */; };
+		6668BB6422597FD5003998F6 /* bmwredemblem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6668BB6122597FD5003998F6 /* bmwredemblem.jpg */; };
+		6668BB6522597FD5003998F6 /* bmwblackemblem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6668BB6222597FD5003998F6 /* bmwblackemblem.jpg */; };
+		6668BB6722597FFD003998F6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668BB6622597FFD003998F6 /* OnboardingView.swift */; };
 		FD5BE37FAC9E2664453557F8 /* Pods_PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461A97A53E5D95DCCE115BDC /* Pods_PaperOnboarding.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +53,10 @@
 		662195B3225979F900580E15 /* PaperOnboardingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperOnboardingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		662195B7225979F900580E15 /* PaperOnboardingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperOnboardingUITests.swift; sourceTree = "<group>"; };
 		662195B9225979F900580E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6668BB6022597FD5003998F6 /* bmwblueemblem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bmwblueemblem.jpg; sourceTree = "<group>"; };
+		6668BB6122597FD5003998F6 /* bmwredemblem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bmwredemblem.jpg; sourceTree = "<group>"; };
+		6668BB6222597FD5003998F6 /* bmwblackemblem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bmwblackemblem.jpg; sourceTree = "<group>"; };
+		6668BB6622597FFD003998F6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		C36A0B0CD5A76D2ED001BE6E /* Pods-PaperOnboarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperOnboarding.release.xcconfig"; path = "Target Support Files/Pods-PaperOnboarding/Pods-PaperOnboarding.release.xcconfig"; sourceTree = "<group>"; };
 		E1B0F6EE3C0996F0D48FFE95 /* Pods-PaperOnboarding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperOnboarding.debug.xcconfig"; path = "Target Support Files/Pods-PaperOnboarding/Pods-PaperOnboarding.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +90,7 @@
 		6621958B225979F800580E15 = {
 			isa = PBXGroup;
 			children = (
+				6668BB5F22597FD5003998F6 /* Images */,
 				66219596225979F800580E15 /* PaperOnboarding */,
 				662195AB225979F900580E15 /* PaperOnboardingTests */,
 				662195B6225979F900580E15 /* PaperOnboardingUITests */,
@@ -104,12 +113,13 @@
 		66219596225979F800580E15 /* PaperOnboarding */ = {
 			isa = PBXGroup;
 			children = (
+				662195A3225979F900580E15 /* Info.plist */,
 				66219597225979F800580E15 /* AppDelegate.swift */,
+				6668BB6622597FFD003998F6 /* OnboardingView.swift */,
 				66219599225979F800580E15 /* ViewController.swift */,
-				6621959B225979F800580E15 /* Main.storyboard */,
 				6621959E225979F900580E15 /* Assets.xcassets */,
 				662195A0225979F900580E15 /* LaunchScreen.storyboard */,
-				662195A3225979F900580E15 /* Info.plist */,
+				6621959B225979F800580E15 /* Main.storyboard */,
 			);
 			path = PaperOnboarding;
 			sourceTree = "<group>";
@@ -132,13 +142,22 @@
 			path = PaperOnboardingUITests;
 			sourceTree = "<group>";
 		};
+		6668BB5F22597FD5003998F6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6668BB6022597FD5003998F6 /* bmwblueemblem.jpg */,
+				6668BB6122597FD5003998F6 /* bmwredemblem.jpg */,
+				6668BB6222597FD5003998F6 /* bmwblackemblem.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		9742C0F8308DE5B41AFAD957 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				E1B0F6EE3C0996F0D48FFE95 /* Pods-PaperOnboarding.debug.xcconfig */,
 				C36A0B0CD5A76D2ED001BE6E /* Pods-PaperOnboarding.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -256,6 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6668BB6522597FD5003998F6 /* bmwblackemblem.jpg in Resources */,
+				6668BB6322597FD5003998F6 /* bmwblueemblem.jpg in Resources */,
+				6668BB6422597FD5003998F6 /* bmwredemblem.jpg in Resources */,
 				662195A2225979F900580E15 /* LaunchScreen.storyboard in Resources */,
 				6621959F225979F900580E15 /* Assets.xcassets in Resources */,
 				6621959D225979F800580E15 /* Main.storyboard in Resources */,
@@ -330,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6668BB6722597FFD003998F6 /* OnboardingView.swift in Sources */,
 				6621959A225979F800580E15 /* ViewController.swift in Sources */,
 				66219598225979F800580E15 /* AppDelegate.swift in Sources */,
 			);
